@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div style={{ maxWidth: 600, margin: "2rem auto", fontFamily: "sans-serif" }}>
-      <h1>🧪 SNS 글 민망 리스크 감별기</h1>
+      <h1>🧪 SNS에 쓸까말까 알려줌 </h1>
       <textarea rows={5} value={input} onChange={(e) => setInput(e.target.value)} style={{ width: "100%", marginTop: 10 }} />
       <button onClick={handleCheck} disabled={!input || loading} style={{ marginTop: 10 }}>
         {loading ? "분석 중..." : "분석하기"}
